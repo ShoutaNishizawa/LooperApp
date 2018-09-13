@@ -7,21 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5CA9B62421425C580027DC3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA9B62321425C580027DC3B /* AppDelegate.swift */; };
-		5CA9B62621425C580027DC3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA9B62521425C580027DC3B /* ViewController.swift */; };
-		5CA9B62921425C580027DC3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA9B62721425C580027DC3B /* Main.storyboard */; };
-		5CA9B62B21425C5B0027DC3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CA9B62A21425C5B0027DC3B /* Assets.xcassets */; };
-		5CA9B62E21425C5B0027DC3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA9B62C21425C5B0027DC3B /* LaunchScreen.storyboard */; };
+		5CA9B63E214271590027DC3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA9B636214271590027DC3B /* ViewController.swift */; };
+		5CA9B63F2142715A0027DC3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CA9B637214271590027DC3B /* Assets.xcassets */; };
+		5CA9B6402142715A0027DC3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA9B638214271590027DC3B /* LaunchScreen.storyboard */; };
+		5CA9B6412142715A0027DC3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA9B63A214271590027DC3B /* Main.storyboard */; };
+		5CA9B6422142715A0027DC3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA9B63C214271590027DC3B /* AppDelegate.swift */; };
+		5CA9B6432142715A0027DC3B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5CA9B63D214271590027DC3B /* Info.plist */; };
+		5CA9B645214289250027DC3B /* AudioFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA9B644214289250027DC3B /* AudioFile.swift */; };
+		622814C03365CFA8D9C5FE87 /* Pods_LooperApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 367DEDF09A6D9A08429924FA /* Pods_LooperApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		367DEDF09A6D9A08429924FA /* Pods_LooperApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LooperApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CA9B62021425C580027DC3B /* LooperApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LooperApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CA9B62321425C580027DC3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5CA9B62521425C580027DC3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5CA9B62821425C580027DC3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5CA9B62A21425C5B0027DC3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5CA9B62D21425C5B0027DC3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5CA9B62F21425C5B0027DC3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CA9B636214271590027DC3B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5CA9B637214271590027DC3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CA9B639214271590027DC3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CA9B63B214271590027DC3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CA9B63C214271590027DC3B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5CA9B63D214271590027DC3B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CA9B644214289250027DC3B /* AudioFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioFile.swift; sourceTree = "<group>"; };
+		8953BA648307109C4F5C5842 /* Pods-LooperApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LooperApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LooperApp/Pods-LooperApp.debug.xcconfig"; sourceTree = "<group>"; };
+		ECB1011314AF9F91FD002820 /* Pods-LooperApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LooperApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-LooperApp/Pods-LooperApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				622814C03365CFA8D9C5FE87 /* Pods_LooperApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +46,10 @@
 		5CA9B61721425C580027DC3B = {
 			isa = PBXGroup;
 			children = (
-				5CA9B62221425C580027DC3B /* LooperApp */,
+				5CA9B635214271590027DC3B /* RecorderSample */,
 				5CA9B62121425C580027DC3B /* Products */,
+				5FDF14A3F9596A48A0A059FC /* Pods */,
+				86DA22DDAC340C9DD3D63E12 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,17 +61,35 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5CA9B62221425C580027DC3B /* LooperApp */ = {
+		5CA9B635214271590027DC3B /* RecorderSample */ = {
 			isa = PBXGroup;
 			children = (
-				5CA9B62321425C580027DC3B /* AppDelegate.swift */,
-				5CA9B62521425C580027DC3B /* ViewController.swift */,
-				5CA9B62721425C580027DC3B /* Main.storyboard */,
-				5CA9B62A21425C5B0027DC3B /* Assets.xcassets */,
-				5CA9B62C21425C5B0027DC3B /* LaunchScreen.storyboard */,
-				5CA9B62F21425C5B0027DC3B /* Info.plist */,
+				5CA9B636214271590027DC3B /* ViewController.swift */,
+				5CA9B637214271590027DC3B /* Assets.xcassets */,
+				5CA9B638214271590027DC3B /* LaunchScreen.storyboard */,
+				5CA9B644214289250027DC3B /* AudioFile.swift */,
+				5CA9B63A214271590027DC3B /* Main.storyboard */,
+				5CA9B63C214271590027DC3B /* AppDelegate.swift */,
+				5CA9B63D214271590027DC3B /* Info.plist */,
 			);
-			path = LooperApp;
+			path = RecorderSample;
+			sourceTree = "<group>";
+		};
+		5FDF14A3F9596A48A0A059FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8953BA648307109C4F5C5842 /* Pods-LooperApp.debug.xcconfig */,
+				ECB1011314AF9F91FD002820 /* Pods-LooperApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		86DA22DDAC340C9DD3D63E12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				367DEDF09A6D9A08429924FA /* Pods_LooperApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CA9B63221425C5B0027DC3B /* Build configuration list for PBXNativeTarget "LooperApp" */;
 			buildPhases = (
+				AF67FB388FCCAB104D58D177 /* [CP] Check Pods Manifest.lock */,
 				5CA9B61C21425C580027DC3B /* Sources */,
 				5CA9B61D21425C580027DC3B /* Frameworks */,
 				5CA9B61E21425C580027DC3B /* Resources */,
+				1AB6D60073542BD5CBBDD7DC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,41 +152,84 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CA9B62E21425C5B0027DC3B /* LaunchScreen.storyboard in Resources */,
-				5CA9B62B21425C5B0027DC3B /* Assets.xcassets in Resources */,
-				5CA9B62921425C580027DC3B /* Main.storyboard in Resources */,
+				5CA9B63F2142715A0027DC3B /* Assets.xcassets in Resources */,
+				5CA9B6412142715A0027DC3B /* Main.storyboard in Resources */,
+				5CA9B6402142715A0027DC3B /* LaunchScreen.storyboard in Resources */,
+				5CA9B6432142715A0027DC3B /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AB6D60073542BD5CBBDD7DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LooperApp/Pods-LooperApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LooperApp/Pods-LooperApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF67FB388FCCAB104D58D177 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LooperApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5CA9B61C21425C580027DC3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CA9B62621425C580027DC3B /* ViewController.swift in Sources */,
-				5CA9B62421425C580027DC3B /* AppDelegate.swift in Sources */,
+				5CA9B645214289250027DC3B /* AudioFile.swift in Sources */,
+				5CA9B6422142715A0027DC3B /* AppDelegate.swift in Sources */,
+				5CA9B63E214271590027DC3B /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5CA9B62721425C580027DC3B /* Main.storyboard */ = {
+		5CA9B638214271590027DC3B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5CA9B62821425C580027DC3B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5CA9B62C21425C5B0027DC3B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5CA9B62D21425C5B0027DC3B /* Base */,
+				5CA9B639214271590027DC3B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5CA9B63A214271590027DC3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CA9B63B214271590027DC3B /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -278,11 +351,13 @@
 		};
 		5CA9B63321425C5B0027DC3B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8953BA648307109C4F5C5842 /* Pods-LooperApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 523WDM2D3U;
-				INFOPLIST_FILE = LooperApp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RecorderSample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,11 +371,13 @@
 		};
 		5CA9B63421425C5B0027DC3B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECB1011314AF9F91FD002820 /* Pods-LooperApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 523WDM2D3U;
-				INFOPLIST_FILE = LooperApp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RecorderSample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

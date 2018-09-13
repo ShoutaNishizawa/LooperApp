@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LooperApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="az6-Qc-nWt">
+                                <rect key="frame" x="68" y="590" width="61" height="30"/>
+                                <state key="normal" title="RECORD"/>
+                                <connections>
+                                    <action selector="record" destination="BYZ-38-t0r" eventType="touchUpInside" id="W4M-NJ-zRI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HB8-Kj-ibh">
+                                <rect key="frame" x="235" y="590" width="36" height="30"/>
+                                <state key="normal" title="PLAY"/>
+                                <connections>
+                                    <action selector="play" destination="BYZ-38-t0r" eventType="touchUpInside" id="cf8-CE-ZCW"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="PEb-F2-Cdw">
+                                <rect key="frame" x="0.0" y="55" width="375" height="469"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="待機中" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i7n-9g-8We">
+                                <rect key="frame" x="68" y="559.5" width="238" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GE5-Cy-bB7">
+                                <rect key="frame" x="0.0" y="25" width="375" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="PEb-F2-Cdw" firstAttribute="top" secondItem="GE5-Cy-bB7" secondAttribute="bottom" id="0J8-eD-y74"/>
+                            <constraint firstItem="i7n-9g-8We" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="6eM-SW-oJt"/>
+                            <constraint firstItem="GE5-Cy-bB7" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="9Kw-CU-23o"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="az6-Qc-nWt" secondAttribute="bottom" constant="47" id="GLr-c0-60G"/>
+                            <constraint firstItem="GE5-Cy-bB7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="5" id="Mgf-Sm-7go"/>
+                            <constraint firstItem="PEb-F2-Cdw" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="R5d-d8-xey"/>
+                            <constraint firstItem="az6-Qc-nWt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="Uf3-Z8-ZkM"/>
+                            <constraint firstItem="PEb-F2-Cdw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hpZ-61-XCc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="i7n-9g-8We" secondAttribute="trailing" constant="69" id="nVA-3t-wv3"/>
+                            <constraint firstItem="GE5-Cy-bB7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="se6-qa-W21"/>
+                            <constraint firstItem="az6-Qc-nWt" firstAttribute="top" secondItem="i7n-9g-8We" secondAttribute="bottom" constant="10" id="uPx-y7-TLt"/>
+                            <constraint firstItem="HB8-Kj-ibh" firstAttribute="leading" secondItem="az6-Qc-nWt" secondAttribute="trailing" constant="106" id="vRE-Qt-JGp"/>
+                            <constraint firstItem="i7n-9g-8We" firstAttribute="top" secondItem="PEb-F2-Cdw" secondAttribute="bottom" constant="35" id="vfz-pp-Jj8"/>
+                            <constraint firstItem="HB8-Kj-ibh" firstAttribute="centerY" secondItem="az6-Qc-nWt" secondAttribute="centerY" id="xq6-Ld-HaR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="i7n-9g-8We" id="spf-rv-meo"/>
+                        <outlet property="playButton" destination="HB8-Kj-ibh" id="ktz-96-QC8"/>
+                        <outlet property="recordButton" destination="az6-Qc-nWt" id="4Oe-cU-den"/>
+                        <outlet property="tableView" destination="PEb-F2-Cdw" id="NyX-Wg-y5y"/>
+                        <outlet property="titleTextField" destination="GE5-Cy-bB7" id="rBW-3B-EFa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="116.49175412293854"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  LooperApp
-//
-//  Created by coco j on 2018/09/07.
-//  Copyright © 2018年 shouta.nishizawa. All rights reserved.
-//
 
 import UIKit
 
